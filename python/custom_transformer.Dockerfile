@@ -1,5 +1,5 @@
 ARG PYTHON_VERSION=3.9
-ARG BASE_IMAGE=python:${PYTHON_VERSION}-slim-bullseye
+ARG BASE_IMAGE=registry.cn-shanghai.aliyuncs.com/zqzzq/hyperkube:3.9-slim-bullseye
 ARG VENV_PATH=/prod_venv
 
 FROM ${BASE_IMAGE} as builder
